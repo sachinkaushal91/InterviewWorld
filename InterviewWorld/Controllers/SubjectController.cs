@@ -11,7 +11,7 @@ namespace InterviewWorld.Controllers
         private readonly InterviewWorldDBContext _dbContext;
         public SubjectController(InterviewWorldDBContext dbContext)
         {
-            _dbContext = dbContext;
+            _dbContext = dbContext ;
         }
     }
 }
