@@ -13,7 +13,7 @@ namespace InterviewWorld.Controllers
         //{
         //    _dbContext = dbContext ;
         //}
-
+        [HttpGet("GetStringData")]
         public string GetStringData()
         {
             return "Sachin";
