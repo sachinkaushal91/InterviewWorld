@@ -8,10 +8,15 @@ namespace InterviewWorld.Controllers
     [ApiController]
     public class SubjectController : ControllerBase
     {
-        private readonly InterviewWorldDBContext _dbContext;
-        public SubjectController(InterviewWorldDBContext dbContext)
+        //private readonly InterviewWorldDBContext _dbContext;
+        //public SubjectController(InterviewWorldDBContext dbContext)
+        //{
+        //    _dbContext = dbContext ;
+        //}
+
+        public string GetStringData()
         {
-            _dbContext = dbContext;
+            return "Sachin";
         }
     }
 }
