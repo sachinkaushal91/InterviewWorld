@@ -11,8 +11,24 @@ namespace InterviewWorld.Test.Controllers
 {
     public class SubjectControllerTest
     {
+        
+
         [Fact]
         public void SubjectController_GetStringData_ValidResult()
+        {
+            //AAA
+            //Avarage
+           
+            string expectedResult = "Sachin";
+
+            //Act
+            string result = controller.GetStringData();
+
+            //Assert
+            Assert.Equal(expectedResult, result);
+        }
+
+        public void SubjectController_GetStringData_InValidResult()
         {
             //AAA
             //Avarage
